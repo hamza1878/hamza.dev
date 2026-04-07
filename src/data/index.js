@@ -18,7 +18,6 @@ export const NAV_ID_MAP = {
   "Certifications": "certifications",
   "Contact":        "contact",
 };
-
 // ─── Skills ───────────────────────────────────────────────────────────────────
 export const SKILLS = {
   "Programming Languages": {
@@ -242,17 +241,18 @@ export const PROJECT_TAGS = [
 
 // ─── Certifications ───────────────────────────────────────────────────────────
 export const CERTS = [
-  {
-    title: "Python Programmer Bootcamp",
-    issuer: "365 Data Science",
-    date: "Nov 2024",
-    link: "https://learn.365datascience.com/certificates/CC-E31C050893/",
-  },
+
   {
     title: "SQL Certificate",
     issuer: "365 Data Science",
     date: "Nov 2024",
     link: "https://learn.365datascience.com/c/d447214f3f/",
+  },
+    {
+    title: "Python Programmer Bootcamp",
+    issuer: "365 Data Science",
+    date: "Nov 2024",
+    link: "https://learn.365datascience.com/certificates/CC-E31C050893/",
   },
 ];
 
