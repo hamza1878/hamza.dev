@@ -1,13 +1,5 @@
 // ─── Navigation ───────────────────────────────────────────────────────────────
-export const NAV_LINKS = [
-  "About",
-  "Skills",
-  "Experience",
-  "Data Science",
-  "Projects",
-  "Certifications",
-  "Contact",
-];
+
 
 export const NAV_ID_MAP = {
   "About":          "about",
@@ -41,7 +33,15 @@ export const SKILLS = {
     level: 70,
   },
 };
-
+export const NAV_LINKS = [
+  "About",
+  "Skills",
+  "Experience",
+  "Data Science",
+  "Projects",
+  "Certifications",
+  "Contact",
+];
 // ─── Data Science ─────────────────────────────────────────────────────────────
 export const DS_SKILLS = [
   { name: "Data Cleaning & EDA", icon: "🧹", desc: "Pandas, NumPy, Matplotlib, Seaborn",             level: 82 },
@@ -105,6 +105,48 @@ export const EXPERIENCE = [
   },
 ];
 
+
+
+export const PROJECT_TAGS = [
+  "All",
+  "Full Stack",
+  "ML / Data Science",
+  "Data Analytics",
+  "Mobile",
+  "NLP / AI",
+  "Backend",
+];
+
+// ─── Certifications ───────────────────────────────────────────────────────────
+export const CERTS = [
+
+  {
+    title: "SQL Certificate",
+    issuer: "365 Data Science",
+    date: "Nov 2024",
+    link: "https://learn.365datascience.com/c/d447214f3f/",
+  },
+    {
+    title: "Python Programmer Bootcamp",
+    issuer: "365 Data Science",
+    date: "Nov 2024",
+    link: "https://learn.365datascience.com/certificates/CC-E31C050893/",
+  },
+];
+
+// ─── Contact ──────────────────────────────────────────────────────────────────
+export const CONTACT_LINKS = [
+  { label: "bensassihamza19@gmail.com", href: "mailto:bensassihamza19@gmail.com" },
+  { label: "+216 92 969 805" },
+  { label: "LinkedIn ↗", href: "https://www.linkedin.com/in/hamza-bensassi-b225a2317/", target: "_blank" },
+  { label: "GitHub ↗", href: "https://github.com/hamza1878", target: "_blank" },
+];
+
+export const STATS = [
+  ["3+",  "Years Coding"],
+  ["10+", "Technologies"],
+  ["12+",  "Projects"],
+];
 // ─── Projects ─────────────────────────────────────────────────────────────────
 export const PROJECTS = [
   {
@@ -227,45 +269,4 @@ export const PROJECTS = [
     color: "#5b21b6",
     icon: "⚙️",
   },
-];
-
-export const PROJECT_TAGS = [
-  "All",
-  "Full Stack",
-  "ML / Data Science",
-  "Data Analytics",
-  "Mobile",
-  "NLP / AI",
-  "Backend",
-];
-
-// ─── Certifications ───────────────────────────────────────────────────────────
-export const CERTS = [
-
-  {
-    title: "SQL Certificate",
-    issuer: "365 Data Science",
-    date: "Nov 2024",
-    link: "https://learn.365datascience.com/c/d447214f3f/",
-  },
-    {
-    title: "Python Programmer Bootcamp",
-    issuer: "365 Data Science",
-    date: "Nov 2024",
-    link: "https://learn.365datascience.com/certificates/CC-E31C050893/",
-  },
-];
-
-// ─── Contact ──────────────────────────────────────────────────────────────────
-export const CONTACT_LINKS = [
-  { label: "bensassihamza19@gmail.com", href: "mailto:bensassihamza19@gmail.com" },
-  { label: "+216 92 969 805" },
-  { label: "LinkedIn ↗", href: "https://www.linkedin.com/in/hamza-bensassi-b225a2317/", target: "_blank" },
-  { label: "GitHub ↗", href: "https://github.com/hamza1878", target: "_blank" },
-];
-
-export const STATS = [
-  ["3+",  "Years Coding"],
-  ["10+", "Technologies"],
-  ["12+",  "Projects"],
 ];
